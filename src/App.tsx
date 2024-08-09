@@ -1,5 +1,6 @@
 import Saludador from './ReactFC';
 import { Product } from './Products';
+import { ListUseExample } from './components/ListUseExample/ListUseExample';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
           'https://img.remediosdigitales.com/78b24d/commonwealth_q524n577r_image_access_800/1366_2000.jpeg',
         ]}
       />
+
+      <ListUseExample />
     </>
   );
 }

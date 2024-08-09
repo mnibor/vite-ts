@@ -1,12 +1,13 @@
 import React from 'react';
 
-export const Saludador: React.FunctionComponent<{ name: string }> = ({
-  name,
-}): React.ReactElement => {
+export const Saludador: React.FunctionComponent<{
+  children: React.ReactElement;
+  name: string;
+}> = ({ name, children }): React.ReactElement => {
   return (
     <div>
       <h1>Hola, {name}</h1>
-      <h2>Tipando la funcion</h2>
+      {children}
     </div>
   );
 };

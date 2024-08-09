@@ -1,14 +1,11 @@
-import FirstComponent from './ReactFC'
-
+import Saludador from './ReactFC';
 
 function App() {
-
-
   return (
     <>
-      <FirstComponent />
+      <Saludador name="Marcelo" />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

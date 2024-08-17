@@ -1,4 +1,4 @@
-import FirstComponent from './ReactFC'
+import Saludador from './ReactFC'
 
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <FirstComponent />
+      <Saludador name='Marcelo' />
     </>
   )
 }

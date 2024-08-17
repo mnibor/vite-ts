@@ -1,12 +1,12 @@
 import React from 'react'
 
-export const FirstComponent: React.FunctionComponent = (): React.ReactElement => {
+export const Saludador: React.FunctionComponent<{name: string}> = ({name}): React.ReactElement => {
   return (
     <div>
-      <h1>PRIMERA FORMA DE CREAR UN COMPONENTE</h1>
-      <h2>Tipando la funcion</h2>
+      <h1>Hola {name}</h1>
+      <h2>Props</h2>
     </div>
   )
 }
 
-export default FirstComponent;
+export default Saludador;
